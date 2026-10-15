@@ -246,6 +246,22 @@ ol.check.qs li::before{font-size:30px;top:14px}
 .luxrec .empty{font-size:15px;color:var(--mute);margin:8px 0 2px}
 .luxrec.has .empty{display:none}
 .luxrec:not(.has) table,.luxrec.folded table,.luxrec.folded .empty{display:none}
+.luxrec .tabs button{min-height:40px;padding:6px 14px;font-size:15px}
+.luxrec .gwrap,.luxrec.gmode table,.luxrec.gmode .empty,.luxrec.folded .gwrap{display:none}
+.luxrec.gmode:not(.folded) .gwrap{display:block}
+.luxrec .gx{display:flex;margin-top:10px}.luxrec .gx button{flex:1;min-height:40px;padding:6px 8px;font-size:14px}
+.luxrec .graph{display:block;width:100%;height:auto;margin-top:8px}
+.btn.mini.on{background:var(--acc);color:var(--acc-ink);font-weight:700}
+.luxcalc{left:40px;bottom:40px;width:340px;display:none;background:rgba(6,6,7,.94);border:1px solid var(--line2);padding:12px 14px}
+.luxcalc.on{display:block}
+.luxcalc .rhead{display:flex;justify-content:space-between;align-items:center}.luxcalc .rhead .lbl{margin:0}
+.luxcalc .cdisp{background:#111;border:1px solid var(--line2);padding:8px 12px;margin:10px 0;text-align:right}
+.luxcalc .cexp{min-height:24px;font-size:17px;color:var(--mute);word-break:break-all}
+.luxcalc .cres{font-size:38px;font-weight:700;font-variant-numeric:tabular-nums}
+.luxcalc .keys{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.luxcalc .keys button{min-height:56px;border:1px solid var(--line2);background:rgba(255,255,255,.05);color:var(--ink);font:22px var(--body);cursor:pointer;touch-action:manipulation}
+.luxcalc .keys button:active{background:rgba(255,255,255,.16)}
+.luxcalc .keys button.eq{grid-column:span 2;background:var(--acc);color:var(--acc-ink);font-weight:700}
 .capbox.panel.luxcap{left:40px;top:40px;bottom:auto;width:560px;padding:20px 24px 18px}
 .luxcap h2{font-size:30px;margin:0 0 10px}
 .luxcap p{font-size:19px;line-height:1.55;margin:0 0 6px}
